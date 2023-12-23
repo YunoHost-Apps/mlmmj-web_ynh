@@ -51,6 +51,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.sources.main]
-    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/"
-    autoupdate.strategy = "latest_github_commit"
+    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/archive/refs/tags/test.tar.gz"
+    sha256 = "bcc09a7a573f84f8f15d82306a1cc5430ae6b6c440221a92ba7d4a92174f09bd"
 
