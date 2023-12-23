@@ -23,7 +23,7 @@ admin=$YNH_APP_ARG_ADMIN
 #=================================================
 ynh_script_progression --message="Installing dependencies..."
 
-ynh_install_nodejs --nodejs_version="20"
+ynh_install_nodejs --nodejs_version="14"
 ynh_use_nodejs
 
 #=================================================
