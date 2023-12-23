@@ -51,8 +51,13 @@ fi
 # REMOVE THE SYSTEM USER
 #=================================================
 # Check if the user is currently used by a process
+# List and print processes owned by the app user
 if pgrep -u $app; then
-    pkill -u $app
+    echo "Running processes for $app:"
+    ps -u $app
+    echo "Stopping processes for $app..."
+    pkill -9 -u $app
+    sleep 1 # Give a moment for processes to be killed
 fi
 
 # Attempt to delete the system user
