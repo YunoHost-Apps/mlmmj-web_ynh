@@ -55,7 +55,7 @@ ynh_add_nginx_config
 #=================================================
 # GIVE ACCESS TO MLMMJ
 #=================================================
-ynh_script_progression --message="Givinh access to MLMMJ;
+ynh_script_progression --message="Givinh access to MLMMJ;"
 
 setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
 setfacl -m d:$app:rwx /var/spool/mlmmj/files
