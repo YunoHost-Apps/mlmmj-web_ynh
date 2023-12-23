@@ -51,6 +51,6 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.sources.main]
-    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/
+    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/"
     autoupdate.strategy = "latest_github_commit"
 
