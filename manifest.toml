@@ -50,11 +50,7 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.apt]
-    packages = ["nodejs", "npm", "autres dépendances nécessaires"]
-
     [resources.sources.main]
-    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/archive/master.tar.gz"
-    sha256 = "sha256sumDuFichierSource"
-    autoupdate.strategy = "latest_github_release"
+    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/
+    autoupdate.strategy = "latest_github_commit"
 
