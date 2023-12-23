@@ -1,25 +1,30 @@
-#:schema https://raw.githubusercontent.com/YunoHost/apps/master/schemas/manifest.v2.schema.json
-
 packaging_format = 2
 
-id = "gestionliste"
-name = "Gestion Liste"
-description.en = "A bespoke web page for managing lists with PHP scripts and group-based access control"
-description.fr = "Une page web sur mesure pour gérer des listes avec des scripts PHP et un contrôle d'accès basé sur les groupes"
+id = "mlmmj-simple-web"
+name = "Mlmmj Simple Web Interface"
+description.en = "A simple web frontend for mlmmj mailing list management."
+description.fr = "Une interface web simple pour la gestion des listes de diffusion mlmmj."
 
 version = "1.0~ynh1"
 
-maintainers = ["ashledombos"]
+maintainers = ["VotreNomUtilisateur"]
+
+[upstream]
+license = "MIT"
+website = "https://github.com/ashledombos/mlmmj-simple-web-interface"
+code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
+admindoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
+userdoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 
 [integration]
-yunohost = ">= 11.1.21"
+yunohost = ">= 11.1"
 architectures = "all"
-multi_instance = true
-ldap = true
-sso = false
+multi_instance = false
+ldap = "not_relevant"
+sso = "not_relevant"
 disk = "10M"
-ram.build = "10M"
-ram.runtime = "10M"
+ram.build = "50M"
+ram.runtime = "50M"
 
 [install]
     [install.domain]
@@ -27,33 +32,29 @@ ram.runtime = "10M"
 
     [install.path]
     type = "path"
-    default = "/mlmmj_web"
+    default = "/mlmmj"
 
     [install.init_main_permission]
     type = "group"
-    default = "visitors"  
-
-    [install.language]
-    ask.en = "Choose the application language"
-    ask.fr = "Choisissez la langue de l'application"
-    type = "select"
-    choices = ["fr", "en"]
-    default = "fr"
+    default = "visitors"
 
     [install.admin]
+    ask.en = "Choose the administrator user for this application:"
     type = "user"
 
 [resources]
-
     [resources.system_user]
+
     [resources.install_dir]
-    [resources.data_dir]
+
     [resources.permissions]
     main.url = "/"
 
-    [resources.ports]
     [resources.apt]
-    packages = "php8.0"
+    packages = ["nodejs", "npm", "autres dépendances nécessaires"]
 
-    [resources.custom]
-    # fichier de gestion des droits en YAML, je suppose
+    [resources.sources.main]
+    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/archive/master.tar.gz"
+    sha256 = "sha256sumDuFichierSource"
+    autoupdate.strategy = "latest_github_release"
+
