@@ -39,6 +39,6 @@
     }
   ],
   "mlmmj": {
-    "path": "/var/spool/mlmmj"
+    "path": "/var/spool/mlmmj/files"
   }
 }
