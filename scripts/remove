@@ -27,6 +27,14 @@ ynh_remove_nginx_config
 ynh_remove_fail2ban_config
 
 #=================================================
+# REMOVE ACLs
+#=================================================
+ynh_script_progression --message="Removing ACLs..."
+
+setfacl -R -x u:$app /var/spool/mlmmj/files
+setfacl -x d:u:$app /var/spool/mlmmj/files
+
+#=================================================
 # CLEAN UP
 #=================================================
 ynh_script_progression --message="Cleaning up..."
