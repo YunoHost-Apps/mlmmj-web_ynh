@@ -3,15 +3,15 @@ N.B.: README ini dibuat secara otomatis oleh <https://github.com/YunoHost/apps/t
 Ini TIDAK boleh diedit dengan tangan.
 -->
 
-# Mlmmj Web Interface untuk YunoHost
+# Mlmmj Web untuk YunoHost
 
 [![Tingkat integrasi](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Pasang Mlmmj Web Interface dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
+[![Pasang Mlmmj Web dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
-> *Paket ini memperbolehkan Anda untuk memasang Mlmmj Web Interface secara cepat dan mudah pada server YunoHost.*  
+> *Paket ini memperbolehkan Anda untuk memasang Mlmmj Web secara cepat dan mudah pada server YunoHost.*  
 > *Bila Anda tidak mempunyai YunoHost, silakan berkonsultasi dengan [panduan](https://yunohost.org/install) untuk mempelajari bagaimana untuk memasangnya.*
 
 ## Ringkasan
@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Mlmmj Web Interface](./doc/screenshots/screenshot.png)
+![Tangkapan Layar pada Mlmmj Web](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 
