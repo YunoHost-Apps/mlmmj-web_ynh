@@ -11,6 +11,7 @@ maintainers = [ ]
 
 [upstream]
 license = "MIT"
+website = "http://mlmmj.org"
 code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 
 [integration]
