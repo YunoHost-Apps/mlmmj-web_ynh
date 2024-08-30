@@ -3,15 +3,15 @@
 Он НЕ ДОЛЖЕН редактироваться вручную.
 -->
 
-# Mlmmj Web Interface для YunoHost
+# Mlmmj Web для YunoHost
 
 [![Уровень интеграции](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Состояние работы](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Состояние сопровождения](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Установите Mlmmj Web Interface с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
+[![Установите Mlmmj Web с YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Прочтите этот README на других языках.](./ALL_README.md)*
 
-> *Этот пакет позволяет Вам установить Mlmmj Web Interface быстро и просто на YunoHost-сервер.*  
+> *Этот пакет позволяет Вам установить Mlmmj Web быстро и просто на YunoHost-сервер.*  
 > *Если у Вас нет YunoHost, пожалуйста, посмотрите [инструкцию](https://yunohost.org/install), чтобы узнать, как установить его.*
 
 ## Обзор
@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Снимки экрана
 
-![Снимок экрана Mlmmj Web Interface](./doc/screenshots/screenshot.png)
+![Снимок экрана Mlmmj Web](./doc/screenshots/screenshot.png)
 
 ## Документация и ресурсы
 
