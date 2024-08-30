@@ -18,7 +18,7 @@ It shall NOT be edited by hand.
 
 A very simple web frontend in node for mlmmj.
 
-**Shipped version:** 1.0~ynh1
+**Shipped version:** 0.0.1~ynh1
 
 ## Screenshots
 

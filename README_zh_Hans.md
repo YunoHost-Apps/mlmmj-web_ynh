@@ -18,7 +18,7 @@
 
 A very simple web frontend in node for mlmmj.
 
-**分发版本：** 1.0~ynh1
+**分发版本：** 0.0.1~ynh1
 
 ## 截图
 

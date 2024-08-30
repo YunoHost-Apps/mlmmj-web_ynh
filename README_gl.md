@@ -18,7 +18,7 @@ NON debe editarse manualmente.
 
 A very simple web frontend in node for mlmmj.
 
-**Versión proporcionada:** 1.0~ynh1
+**Versión proporcionada:** 0.0.1~ynh1
 
 ## Capturas de pantalla
 
