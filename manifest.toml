@@ -1,20 +1,17 @@
 packaging_format = 2
 
 id = "mlmmj-simple-web"
-name = "Mlmmj Simple Web Interface"
+name = "Mlmmj Web Interface"
 description.en = "Simple web frontend for mlmmj mailing list management"
 description.fr = "Interface web simple pour la gestion des listes de diffusion mlmmj"
 
 version = "1.0~ynh1"
 
-maintainers = ["VotreNomUtilisateur"]
+maintainers = [ ]
 
 [upstream]
 license = "MIT"
-website = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
-admindoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
-userdoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 
 [integration]
 yunohost = ">= 11.2.28"
