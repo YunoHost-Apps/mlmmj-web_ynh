@@ -5,9 +5,9 @@ NON debe editarse manualmente.
 
 # Mlmmj Web Interface para YunoHost
 
-[![Nivel de integración](https://dash.yunohost.org/integration/mlmmj-simple-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-simple-web/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.maintain.svg)
+[![Nivel de integración](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Estado de funcionamento](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Estado de mantemento](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Instalar Mlmmj Web Interface con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
+[![Instalar Mlmmj Web Interface con YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Le este README en outros idiomas.](./ALL_README.md)*
 
@@ -27,19 +27,19 @@ A very simple web frontend in node for mlmmj.
 ## Documentación e recursos
 
 - Repositorio de orixe do código: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Tenda YunoHost: <https://apps.yunohost.org/app/mlmmj-simple-web>
-- Informar dun problema: <https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/issues>
+- Tenda YunoHost: <https://apps.yunohost.org/app/mlmmj-web>
+- Informar dun problema: <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
 
 ## Info de desenvolvemento
 
-Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing).
+Envía a túa colaboración á [rama `testing`](https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing).
 
 Para probar a rama `testing`, procede deste xeito:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 ou
-sudo yunohost app upgrade mlmmj-simple-web -u https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app upgrade mlmmj-web -u https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 ```
 
 **Máis info sobre o empaquetado da app:** <https://yunohost.org/packaging_apps>
