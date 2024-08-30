@@ -26,10 +26,10 @@ ynh_remove_nginx_config
 #=================================================
 # REMOVE ACLs
 #=================================================
-ynh_script_progression --message="Removing ACLs..."
+#ynh_script_progression --message="Removing ACLs..."
 
-setfacl -R -x u:$app /var/spool/mlmmj/files
-setfacl -x d:u:$app /var/spool/mlmmj/files
+#setfacl -R -x u:$app /var/spool/mlmmj/files
+#setfacl -x d:u:$app /var/spool/mlmmj/files
 
 #=================================================
 # END OF SCRIPT
