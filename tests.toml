@@ -39,7 +39,7 @@ test_format = 1.0
     ## (Remove this key entirely if not needed)
     
     preinstall = """
-    sudo mkdir "/var/spool/mlmmj/files"
+    sudo yunohost app install mlmmj
     """
 
     # -------------------------------
