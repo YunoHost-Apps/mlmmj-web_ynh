@@ -18,7 +18,7 @@
 
 A very simple web frontend in node for mlmmj.
 
-**Поставляемая версия:** 1.0~ynh1
+**Поставляемая версия:** 0.0.1~ynh1
 
 ## Снимки экрана
 

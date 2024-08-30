@@ -18,7 +18,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 A very simple web frontend in node for mlmmj.
 
-**Versi terkirim:** 1.0~ynh1
+**Versi terkirim:** 0.0.1~ynh1
 
 ## Tangkapan Layar
 

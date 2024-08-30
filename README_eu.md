@@ -18,7 +18,7 @@ EZ editatu eskuz.
 
 A very simple web frontend in node for mlmmj.
 
-**Paketatutako bertsioa:** 1.0~ynh1
+**Paketatutako bertsioa:** 0.0.1~ynh1
 
 ## Pantaila-argazkiak
 
