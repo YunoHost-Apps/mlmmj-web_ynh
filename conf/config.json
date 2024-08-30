@@ -1,7 +1,7 @@
 {
   "server": {
-    "address": "localhost",
-    "port": "4792"
+    "address": "127.0.0.1",
+    "port": "__PORT__"
   },
   "app": {
     "name": "Mlmmj Web Interface"
