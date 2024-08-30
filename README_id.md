@@ -26,6 +26,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Dokumentasi dan sumber daya
 
+- Website aplikasi resmi: <http://mlmmj.org>
 - Depot kode aplikasi hulu: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - Gudang YunoHost: <https://apps.yunohost.org/app/mlmmj-web>
 - Laporkan bug: <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>

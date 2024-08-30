@@ -26,6 +26,7 @@ A very simple web frontend in node for mlmmj.
 
 ## 文档与资源
 
+- 官方应用网站： <http://mlmmj.org>
 - 上游应用代码库： <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - YunoHost 商店： <https://apps.yunohost.org/app/mlmmj-web>
 - 报告 bug： <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
