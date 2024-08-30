@@ -1,5 +1,5 @@
 [Unit]
-Description=Mlmmj Simple Web Interface
+Description=Mlmmj: Frontend for Mlmmj mailing list management
 After=network.target
 
 [Service]
