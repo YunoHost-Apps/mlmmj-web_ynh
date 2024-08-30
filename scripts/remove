@@ -14,45 +14,22 @@ source /usr/share/yunohost/helpers
 #=================================================
 ynh_script_progression --message="Removing system configurations related to $app..." --weight=1
 
-# Stop the service before removing it
-ynh_systemd_action --service_name=$app --action="stop"
+if ynh_exec_warn_less yunohost service status "$app" >/dev/null; then
+    ynh_script_progression --message="Removing $app service integration..." --weight=1
+    yunohost service remove "$app"
+fi
 
-# Remove the systemd service file
 ynh_remove_systemd_config
 
-# Remove nginx configuration
 ynh_remove_nginx_config
-
-# Remove fail2ban configuration
-ynh_remove_fail2ban_config
 
 #=================================================
 # REMOVE ACLs
 #=================================================
-ynh_script_progression --message="Removing ACLs..."
+#ynh_script_progression --message="Removing ACLs..."
 
-setfacl -R -x u:$app /var/spool/mlmmj/files
-setfacl -x d:u:$app /var/spool/mlmmj/files
-
-#=================================================
-# CLEAN UP
-#=================================================
-ynh_script_progression --message="Cleaning up..."
-
-# Remove any cron job
-ynh_secure_remove --file="/etc/cron.d/$app"
-
-# Remove logs if exists
-if [ -d "/var/log/$app" ]; then
-    ynh_secure_remove --file="/var/log/$app"
-fi
-
-#=================================================
-# REMOVE THE SYSTEM USER
-#=================================================
-
-# Attempt to delete the system user
-ynh_system_user_delete $app
+#setfacl -R -x u:$app /var/spool/mlmmj/files
+#setfacl -x d:u:$app /var/spool/mlmmj/files
 
 #=================================================
 # END OF SCRIPT

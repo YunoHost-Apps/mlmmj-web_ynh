@@ -1,27 +1,26 @@
 packaging_format = 2
 
-id = "mlmmj-simple-web"
-name = "Mlmmj Simple Web Interface"
-description.en = "A simple web frontend for mlmmj mailing list management."
-description.fr = "Une interface web simple pour la gestion des listes de diffusion mlmmj."
+id = "mlmmj-web"
+name = "Mlmmj Web Interface"
+description.en = "Simple web frontend for mlmmj mailing list management"
+description.fr = "Interface web simple pour la gestion des listes de diffusion mlmmj"
 
-version = "1.0~ynh1"
+version = "0.0.1~ynh1"
 
-maintainers = ["VotreNomUtilisateur"]
+maintainers = [ ]
 
 [upstream]
 license = "MIT"
-website = "https://github.com/ashledombos/mlmmj-simple-web-interface"
+website = "http://mlmmj.org"
 code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
-admindoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
-userdoc = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 
 [integration]
-yunohost = ">= 11.1"
+yunohost = ">= 11.2.28"
 architectures = "all"
 multi_instance = false
-ldap = "not_relevant"
-sso = "not_relevant"
+ldap = false
+sso = false
+
 disk = "10M"
 ram.build = "50M"
 ram.runtime = "50M"
@@ -30,19 +29,18 @@ ram.runtime = "50M"
     [install.domain]
     type = "domain"
 
-#    [install.path]
-#    type = "path"
-#    default = "/"
-
     [install.init_main_permission]
     type = "group"
     default = "visitors"
 
-    [install.admin]
-    ask.en = "Choose the administrator user for this application:"
-    type = "user"
-
 [resources]
+
+    [resources.sources]
+
+    [resources.sources.main]
+    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/archive/refs/tags/test.tar.gz"
+    sha256 = "bcc09a7a573f84f8f15d82306a1cc5430ae6b6c440221a92ba7d4a92174f09bd"
+
     [resources.system_user]
 
     [resources.install_dir]
@@ -50,7 +48,4 @@ ram.runtime = "50M"
     [resources.permissions]
     main.url = "/"
 
-    [resources.sources.main]
-    url = "https://github.com/ashledombos/mlmmj-simple-web-interface/archive/refs/tags/test.tar.gz"
-    sha256 = "bcc09a7a573f84f8f15d82306a1cc5430ae6b6c440221a92ba7d4a92174f09bd"
-
+    [resources.ports]
