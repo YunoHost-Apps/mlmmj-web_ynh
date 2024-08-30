@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## 截图
 
-![Mlmmj Web Interface 的截图](./doc/screenshots/example.jpg)
+![Mlmmj Web Interface 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 

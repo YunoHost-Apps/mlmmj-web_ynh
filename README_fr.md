@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Captures d’écran
 
-![Capture d’écran de Mlmmj Web Interface](./doc/screenshots/example.jpg)
+![Capture d’écran de Mlmmj Web Interface](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
