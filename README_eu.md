@@ -3,15 +3,15 @@ Ohart ongi: README hau automatikoki sortu da <https://github.com/YunoHost/apps/t
 EZ editatu eskuz.
 -->
 
-# Mlmmj Web Interface YunoHost-erako
+# Mlmmj Web YunoHost-erako
 
 [![Integrazio maila](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Instalatu Mlmmj Web Interface YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
+[![Instalatu Mlmmj Web YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
-> *Pakete honek Mlmmj Web Interface YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
+> *Pakete honek Mlmmj Web YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
 > *YunoHost ez baduzu, kontsultatu [gida](https://yunohost.org/install) nola instalatu ikasteko.*
 
 ## Aurreikuspena
@@ -22,10 +22,11 @@ A very simple web frontend in node for mlmmj.
 
 ## Pantaila-argazkiak
 
-![Mlmmj Web Interface(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
+![Mlmmj Web(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 
+- Aplikazioaren webgune ofiziala: <http://mlmmj.org>
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - YunoHost Denda: <https://apps.yunohost.org/app/mlmmj-web>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>

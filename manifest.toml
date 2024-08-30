@@ -1,9 +1,9 @@
 packaging_format = 2
 
 id = "mlmmj-web"
-name = "Mlmmj Web Interface"
-description.en = "Simple web frontend for mlmmj mailing list management"
-description.fr = "Interface web simple pour la gestion des listes de diffusion mlmmj"
+name = "Mlmmj Web"
+description.en = "Simple web frontend for Mlmmj mailing list management"
+description.fr = "Interface web simple pour la gestion des listes de diffusion Mlmmj"
 
 version = "0.0.1~ynh1"
 
@@ -11,6 +11,7 @@ maintainers = [ ]
 
 [upstream]
 license = "MIT"
+website = "http://mlmmj.org"
 code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 
 [integration]

@@ -3,15 +3,15 @@
 请勿手动编辑。
 -->
 
-# YunoHost 上的 Mlmmj Web Interface
+# YunoHost 上的 Mlmmj Web
 
 [![集成程度](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![使用 YunoHost 安装 Mlmmj Web Interface](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
+[![使用 YunoHost 安装 Mlmmj Web](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
-> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Mlmmj Web Interface。*  
+> *通过此软件包，您可以在 YunoHost 服务器上快速、简单地安装 Mlmmj Web。*  
 > *如果您还没有 YunoHost，请参阅[指南](https://yunohost.org/install)了解如何安装它。*
 
 ## 概况
@@ -22,10 +22,11 @@ A very simple web frontend in node for mlmmj.
 
 ## 截图
 
-![Mlmmj Web Interface 的截图](./doc/screenshots/screenshot.png)
+![Mlmmj Web 的截图](./doc/screenshots/screenshot.png)
 
 ## 文档与资源
 
+- 官方应用网站： <http://mlmmj.org>
 - 上游应用代码库： <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - YunoHost 商店： <https://apps.yunohost.org/app/mlmmj-web>
 - 报告 bug： <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
