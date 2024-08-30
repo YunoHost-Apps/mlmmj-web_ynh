@@ -3,15 +3,15 @@ Nota bene : ce README est automatiquement généré par <https://github.com/Yu
 Il NE doit PAS être modifié à la main.
 -->
 
-# Mlmmj Web Interface pour YunoHost
+# Mlmmj Web pour YunoHost
 
 [![Niveau d’intégration](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Installer Mlmmj Web Interface avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
+[![Installer Mlmmj Web avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Lire le README dans d'autres langues.](./ALL_README.md)*
 
-> *Ce package vous permet d’installer Mlmmj Web Interface rapidement et simplement sur un serveur YunoHost.*  
+> *Ce package vous permet d’installer Mlmmj Web rapidement et simplement sur un serveur YunoHost.*  
 > *Si vous n’avez pas YunoHost, consultez [ce guide](https://yunohost.org/install) pour savoir comment l’installer et en profiter.*
 
 ## Vue d’ensemble
@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Captures d’écran
 
-![Capture d’écran de Mlmmj Web Interface](./doc/screenshots/screenshot.png)
+![Capture d’écran de Mlmmj Web](./doc/screenshots/screenshot.png)
 
 ## Documentations et ressources
 
