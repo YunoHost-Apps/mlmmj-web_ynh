@@ -3,15 +3,15 @@ Ohart ongi: README hau automatikoki sortu da <https://github.com/YunoHost/apps/t
 EZ editatu eskuz.
 -->
 
-# Mlmmj Simple Web Interface YunoHost-erako
+# Mlmmj Web Interface YunoHost-erako
 
 [![Integrazio maila](https://dash.yunohost.org/integration/mlmmj-simple-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-simple-web/) ![Funtzionamendu egoera](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.status.svg) ![Mantentze egoera](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.maintain.svg)
 
-[![Instalatu Mlmmj Simple Web Interface YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
+[![Instalatu Mlmmj Web Interface YunoHost-ekin](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
 
 *[Irakurri README hau beste hizkuntzatan.](./ALL_README.md)*
 
-> *Pakete honek Mlmmj Simple Web Interface YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
+> *Pakete honek Mlmmj Web Interface YunoHost zerbitzari batean azkar eta zailtasunik gabe instalatzea ahalbidetzen dizu.*  
 > *YunoHost ez baduzu, kontsultatu [gida](https://yunohost.org/install) nola instalatu ikasteko.*
 
 ## Aurreikuspena
@@ -22,13 +22,10 @@ A very simple web frontend in node for mlmmj.
 
 ## Pantaila-argazkiak
 
-![Mlmmj Simple Web Interface(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![Mlmmj Web Interface(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
 
 ## Dokumentazioa eta baliabideak
 
-- Aplikazioaren webgune ofiziala: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Erabiltzaileen dokumentazio ofiziala: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Administratzaileen dokumentazio ofiziala: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - Jatorrizko aplikazioaren kode-gordailua: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - YunoHost Denda: <https://apps.yunohost.org/app/mlmmj-simple-web>
 - Eman errore baten berri: <https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/issues>

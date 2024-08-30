@@ -3,15 +3,15 @@ Este archivo README esta generado automaticamente<https://github.com/YunoHost/ap
 No se debe editar a mano.
 -->
 
-# Mlmmj Simple Web Interface para Yunohost
+# Mlmmj Web Interface para Yunohost
 
 [![Nivel de integración](https://dash.yunohost.org/integration/mlmmj-simple-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-simple-web/) ![Estado funcional](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.status.svg) ![Estado En Mantención](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.maintain.svg)
 
-[![Instalar Mlmmj Simple Web Interface con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
+[![Instalar Mlmmj Web Interface con Yunhost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
 
 *[Leer este README en otros idiomas.](./ALL_README.md)*
 
-> *Este paquete le permite instalarMlmmj Simple Web Interface rapidamente y simplement en un servidor YunoHost.*  
+> *Este paquete le permite instalarMlmmj Web Interface rapidamente y simplement en un servidor YunoHost.*  
 > *Si no tiene YunoHost, visita [the guide](https://yunohost.org/install) para aprender como instalarla.*
 
 ## Descripción general
@@ -22,13 +22,10 @@ A very simple web frontend in node for mlmmj.
 
 ## Capturas
 
-![Captura de Mlmmj Simple Web Interface](./doc/screenshots/example.jpg)
+![Captura de Mlmmj Web Interface](./doc/screenshots/example.jpg)
 
 ## Documentaciones y recursos
 
-- Sitio web oficial: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Documentación usuario oficial: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Documentación administrador oficial: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - Repositorio del código fuente oficial de la aplicación : <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - Catálogo YunoHost: <https://apps.yunohost.org/app/mlmmj-simple-web>
 - Reportar un error: <https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/issues>
