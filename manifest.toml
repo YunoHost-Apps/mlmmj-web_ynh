@@ -1,6 +1,6 @@
 packaging_format = 2
 
-id = "mlmmj-simple-web"
+id = "mlmmj-web"
 name = "Mlmmj Web Interface"
 description.en = "Simple web frontend for mlmmj mailing list management"
 description.fr = "Interface web simple pour la gestion des listes de diffusion mlmmj"
@@ -17,8 +17,8 @@ code = "https://github.com/ashledombos/mlmmj-simple-web-interface"
 yunohost = ">= 11.2.28"
 architectures = "all"
 multi_instance = false
-ldap = "not_relevant"
-sso = "not_relevant"
+ldap = false
+sso = false
 disk = "10M"
 ram.build = "50M"
 ram.runtime = "50M"
