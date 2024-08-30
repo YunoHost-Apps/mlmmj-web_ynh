@@ -16,8 +16,7 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-Ceci est une fausse description des fonctionalités de l'app
-
+A very simple web frontend in node for mlmmj.
 
 **Version incluse :** 1.0~ynh1
 

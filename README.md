@@ -16,8 +16,7 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-This is a dummy description of this app features
-
+A very simple web frontend in node for mlmmj.
 
 **Shipped version:** 1.0~ynh1
 

@@ -16,8 +16,7 @@
 
 ## 概况
 
-This is a dummy description of this app features
-
+A very simple web frontend in node for mlmmj.
 
 **分发版本：** 1.0~ynh1
 

@@ -16,8 +16,7 @@ Ini TIDAK boleh diedit dengan tangan.
 
 ## Ringkasan
 
-This is a dummy description of this app features
-
+A very simple web frontend in node for mlmmj.
 
 **Versi terkirim:** 1.0~ynh1
 
