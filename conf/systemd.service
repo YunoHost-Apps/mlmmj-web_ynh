@@ -9,7 +9,7 @@ Group=__APP__
 WorkingDirectory=__INSTALL_DIR__/
 Environment="NODE_ENV=production"
 Environment="__YNH_NODE_LOAD_PATH__"
-ExecStart=__YNH_NPM__ index.js
+ExecStart=__YNH_NPM__ start
 Restart=always
 
 # Sandboxing options to harden security
