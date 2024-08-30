@@ -5,9 +5,9 @@
 
 # YunoHost 上的 Mlmmj Web Interface
 
-[![集成程度](https://dash.yunohost.org/integration/mlmmj-simple-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-simple-web/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.maintain.svg)
+[![集成程度](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![工作状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![使用 YunoHost 安装 Mlmmj Web Interface](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
+[![使用 YunoHost 安装 Mlmmj Web Interface](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[阅读此 README 的其它语言版本。](./ALL_README.md)*
 
@@ -27,19 +27,19 @@ A very simple web frontend in node for mlmmj.
 ## 文档与资源
 
 - 上游应用代码库： <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- YunoHost 商店： <https://apps.yunohost.org/app/mlmmj-simple-web>
-- 报告 bug： <https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/issues>
+- YunoHost 商店： <https://apps.yunohost.org/app/mlmmj-web>
+- 报告 bug： <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
 
 ## 开发者信息
 
-请向 [`testing` 分支](https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing) 发送拉取请求。
+请向 [`testing` 分支](https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing) 发送拉取请求。
 
 如要尝试 `testing` 分支，请这样操作：
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 或
-sudo yunohost app upgrade mlmmj-simple-web -u https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app upgrade mlmmj-web -u https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 ```
 
 **有关应用打包的更多信息：** <https://yunohost.org/packaging_apps>

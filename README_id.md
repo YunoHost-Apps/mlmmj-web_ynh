@@ -5,9 +5,9 @@ Ini TIDAK boleh diedit dengan tangan.
 
 # Mlmmj Web Interface untuk YunoHost
 
-[![Tingkat integrasi](https://dash.yunohost.org/integration/mlmmj-simple-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-simple-web/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/mlmmj-simple-web.maintain.svg)
+[![Tingkat integrasi](https://dash.yunohost.org/integration/mlmmj-web.svg)](https://ci-apps.yunohost.org/ci/apps/mlmmj-web/) ![Status kerja](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.status.svg) ![Status pemeliharaan](https://ci-apps.yunohost.org/ci/badges/mlmmj-web.maintain.svg)
 
-[![Pasang Mlmmj Web Interface dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-simple-web)
+[![Pasang Mlmmj Web Interface dengan YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mlmmj-web)
 
 *[Baca README ini dengan bahasa yang lain.](./ALL_README.md)*
 
@@ -27,19 +27,19 @@ A very simple web frontend in node for mlmmj.
 ## Dokumentasi dan sumber daya
 
 - Depot kode aplikasi hulu: <https://github.com/ashledombos/mlmmj-simple-web-interface>
-- Gudang YunoHost: <https://apps.yunohost.org/app/mlmmj-simple-web>
-- Laporkan bug: <https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/issues>
+- Gudang YunoHost: <https://apps.yunohost.org/app/mlmmj-web>
+- Laporkan bug: <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
 
 ## Info developer
 
-Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing).
+Silakan kirim pull request ke [`testing` branch](https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing).
 
 Untuk mencoba branch `testing`, silakan dilanjutkan seperti:
 
 ```bash
-sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app install https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 atau
-sudo yunohost app upgrade mlmmj-simple-web -u https://github.com/YunoHost-Apps/mlmmj-simple-web_ynh/tree/testing --debug
+sudo yunohost app upgrade mlmmj-web -u https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing --debug
 ```
 
 **Info lebih lanjut mengenai pemaketan aplikasi:** <https://yunohost.org/packaging_apps>
