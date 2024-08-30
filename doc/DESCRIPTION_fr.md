@@ -1,1 +1,1 @@
-Ceci est une fausse description des fonctionalités de l'app
+A very simple web frontend in node for mlmmj.
