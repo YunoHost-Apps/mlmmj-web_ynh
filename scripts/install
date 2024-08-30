@@ -51,7 +51,7 @@ yunohost service add "$app" --description="Frontend for Mlmmj mailing list manag
 #=================================================
 # INSTALL NODE PACKAGES
 #=================================================
-ynh_script_progression --message="Installing Node.js packages ..." --weight=45
+ynh_script_progression --message="Installing Node.js packages..." --weight=10
 
 pushd "$install_dir"
 	ynh_use_nodejs
@@ -63,8 +63,8 @@ popd
 #=================================================
 ynh_script_progression --message="Giving access to $app..."
 
-#setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
-#setfacl -m d:$app:rwx /var/spool/mlmmj/files
+setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
+setfacl -m d:$app:rwx /var/spool/mlmmj/files
 
 #=================================================
 # START SYSTEMD SERVICE
