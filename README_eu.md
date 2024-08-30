@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Pantaila-argazkiak
 
-![Mlmmj Web Interface(r)en pantaila-argazkia](./doc/screenshots/example.jpg)
+![Mlmmj Web Interface(r)en pantaila-argazkia](./doc/screenshots/screenshot.png)
 
 ## Dokumentazioa eta baliabideak
 

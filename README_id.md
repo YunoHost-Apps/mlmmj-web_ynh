@@ -22,7 +22,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Tangkapan Layar
 
-![Tangkapan Layar pada Mlmmj Web Interface](./doc/screenshots/example.jpg)
+![Tangkapan Layar pada Mlmmj Web Interface](./doc/screenshots/screenshot.png)
 
 ## Dokumentasi dan sumber daya
 
