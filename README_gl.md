@@ -26,6 +26,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Documentación e recursos
 
+- Web oficial da app: <http://mlmmj.org>
 - Repositorio de orixe do código: <https://github.com/ashledombos/mlmmj-simple-web-interface>
 - Tenda YunoHost: <https://apps.yunohost.org/app/mlmmj-web>
 - Informar dun problema: <https://github.com/YunoHost-Apps/mlmmj-web_ynh/issues>
