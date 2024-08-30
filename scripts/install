@@ -61,8 +61,8 @@ popd
 #=================================================
 ynh_script_progression --message="Giving access to $app..."
 
-setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
-setfacl -m d:$app:rwx /var/spool/mlmmj/files
+#setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
+#setfacl -m d:$app:rwx /var/spool/mlmmj/files
 
 #=================================================
 # START SYSTEMD SERVICE
