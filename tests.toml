@@ -9,5 +9,6 @@ test_format = 1.0
     # ------------
 
     preinstall = """
-    sudo yunohost app install mlmmj -a "&list_email=list@domain.tld&owner=package_checker"
+    sudo yunohost tools update apps
+    sudo yunohost app install mlmmj -a "domain=domain.tld&path=&init_main_permission=all_users&language=en&list_email=list@domain.tld&owner=package_checker" --force
     """
