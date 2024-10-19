@@ -1,65 +1,53 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
 # INSTALL DEPENDENCIES
 #=================================================
-ynh_script_progression --message="Installing dependencies..."
+ynh_script_progression "Installing dependencies..."
 
-ynh_install_nodejs --nodejs_version=$nodejs_version
+ynh_nodejs_install
 
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
-ynh_script_progression --message="Setting up source files..."
+ynh_script_progression "Setting up source files..."
 
-ynh_setup_source --dest_dir="$install_dir" 
-
-chown -R "$app:www-data" "$install_dir"
+ynh_setup_source --dest_dir="$install_dir"
 
 #=================================================
 # APP INITIAL CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding $app's configuration files..." --weight=1
+ynh_script_progression "Adding $app's configuration files..."
 
-ynh_add_config --template="config.json" --destination="$install_dir/config.json"
-
-chmod 400 "$install_dir/config.json"
-chown $app:$app "$install_dir/config.json"
+ynh_config_add --template="config.json" --destination="$install_dir/config.json"
 
 #=================================================
 # SYSTEM CONFIGURATION
 #=================================================
-ynh_script_progression --message="Adding system configurations related to $app..." --weight=1
+ynh_script_progression "Adding system configurations related to $app..."
 
-ynh_add_nginx_config
+ynh_config_add_nginx
 
-ynh_add_systemd_config
+ynh_config_add_systemd
 
 yunohost service add "$app" --description="Frontend for Mlmmj mailing list management" --log="/var/log/$app/$app.log"
 
 #=================================================
 # INSTALL NODE PACKAGES
 #=================================================
-ynh_script_progression --message="Installing Node.js packages..." --weight=10
+ynh_script_progression "Installing $app..."
 
 pushd "$install_dir"
-	ynh_use_nodejs
-	ynh_exec_warn_less ynh_exec_as $app $ynh_node_load_PATH $ynh_npm install
+	ynh_hide_warnings ynh_exec_as_app npm install
 popd
 
 #=================================================
 # GIVE ACCESS TO MLMMJ
 #=================================================
-#ynh_script_progression --message="Giving access to $app..."
+#ynh_script_progression "Giving access to $app..."
 
 #setfacl -R -m u:$app:rwx /var/spool/mlmmj/files
 #setfacl -m d:$app:rwx /var/spool/mlmmj/files
@@ -67,13 +55,12 @@ popd
 #=================================================
 # START SYSTEMD SERVICE
 #=================================================
-ynh_script_progression --message="Starting $app's systemd service..." --weight=1
+ynh_script_progression "Starting $app's systemd service..."
 
-ynh_add_systemd_config
-ynh_systemd_action --service_name=$app --action="start" --log_path="systemd"
+ynh_systemctl --service=$app --action="start" --log_path="systemd"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Installation of $app completed"
+ynh_script_progression "Installation of $app completed"

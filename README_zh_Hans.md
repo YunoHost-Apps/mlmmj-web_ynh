@@ -16,7 +16,8 @@
 
 ## 概况
 
-A very simple web frontend in node for mlmmj.
+Simple web frontend for Mlmmj mailing list management.
+
 
 **分发版本：** 0.0.1~ynh1
 
