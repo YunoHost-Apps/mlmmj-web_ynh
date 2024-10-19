@@ -16,7 +16,8 @@ No se debe editar a mano.
 
 ## Descripción general
 
-A very simple web frontend in node for mlmmj.
+Simple web frontend for Mlmmj mailing list management.
+
 
 **Versión actual:** 0.0.1~ynh1
 
@@ -33,7 +34,7 @@ A very simple web frontend in node for mlmmj.
 
 ## Información para desarrolladores
 
-Por favor enviar sus correcciones a la [`branch testing`](https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing
+Por favor enviar sus correcciones a la [rama `testing`](https://github.com/YunoHost-Apps/mlmmj-web_ynh/tree/testing).
 
 Para probar la rama `testing`, sigue asÍ:
 
