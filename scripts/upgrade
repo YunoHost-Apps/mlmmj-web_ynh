@@ -4,6 +4,13 @@ source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
+# INSTALL DEPENDENCIES
+#=================================================
+ynh_script_progression "Installing dependencies..."
+
+ynh_nodejs_install
+
+#=================================================
 # STOP SYSTEMD SERVICE
 #=================================================
 ynh_script_progression "Stopping $app's systemd service..."
@@ -15,9 +22,8 @@ ynh_systemctl --service=$app --action="stop" --log_path="systemd"
 #=================================================
 ynh_script_progression "Upgrading source files..."
 
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --full_replace --keep="config.json"
 
-#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # REAPPLY SYSTEM CONFIGURATIONS
 #=================================================
@@ -28,6 +34,15 @@ ynh_config_add_nginx
 ynh_config_add_systemd
 
 yunohost service add $app --description="Frontend for Mlmmj mailing list management" --log="/var/log/$app/$app.log"
+
+#=================================================
+# INSTALL NODE PACKAGES
+#=================================================
+ynh_script_progression "Installing Node.js packages..."
+
+pushd "$install_dir"
+	ynh_hide_warnings ynh_exec_as_app npm install
+popd
 
 #=================================================
 # START SYSTEMD SERVICE

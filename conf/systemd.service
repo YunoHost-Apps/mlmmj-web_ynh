@@ -1,5 +1,5 @@
 [Unit]
-Description=Mlmmj: Frontend for Mlmmj mailing list management
+Description=Mlmmj: frontend for Mlmmj mailing list management
 After=network.target
 
 [Service]
