@@ -16,7 +16,8 @@ It shall NOT be edited by hand.
 
 ## Overview
 
-A very simple web frontend in node for mlmmj.
+Simple web frontend for Mlmmj mailing list management.
+
 
 **Shipped version:** 0.0.1~ynh1
 

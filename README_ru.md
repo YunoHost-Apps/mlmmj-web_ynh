@@ -16,7 +16,8 @@
 
 ## Обзор
 
-A very simple web frontend in node for mlmmj.
+Simple web frontend for Mlmmj mailing list management.
+
 
 **Поставляемая версия:** 0.0.1~ynh1
 

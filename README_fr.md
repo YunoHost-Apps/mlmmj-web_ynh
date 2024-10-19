@@ -16,7 +16,8 @@ Il NE doit PAS être modifié à la main.
 
 ## Vue d’ensemble
 
-A very simple web frontend in node for mlmmj.
+Interface web simple pour la gestion des listes de diffusion Mlmmj.
+
 
 **Version incluse :** 0.0.1~ynh1
 
