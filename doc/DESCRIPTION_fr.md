@@ -1,1 +1,1 @@
-A very simple web frontend in node for mlmmj.
+Interface web simple pour la gestion des listes de diffusion Mlmmj.
